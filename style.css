@@ -199,3 +199,32 @@ textarea .input {
     top: 50%;
     left: 50%;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .big-circle {
+    display: none;
+  }
+
+  h3 {
+    text-align: center;
+    background-color: #1abc9c;
+    color: #fff;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-transform: uppercase;
+  }
+
+  .form {
+    grid-template-columns: 1fr;
+  }
+  .contact-info::before{
+    
+    width: 120px;
+    height: 120px;
+  }
+}
+
+
